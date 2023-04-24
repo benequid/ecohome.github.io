@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=Oranienbaum&display=swap');
+
+:root {
+    --white-color: #fff;
+    --black-color: #1F252D;
+    --second-black-color: #25252C;
+}
+
+*,::before,::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Golos Text', sans-serif;
+}
+
+.header {
+    background-image: url("../img/header-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-height: 80rem;
+}
+
+.logo a {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.container-large {
+    max-width: 129.6rem;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 112.2rem;
+    margin: 0 auto;
+}
+
+.header__nav {
+    padding-top: 4.2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    gap: 1.8rem;
+    list-style: none;
+}
+
+.nav__list-link a {
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.header__titles {
+    margin-top: 30rem;
+}
+
+.header__overhead {
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.header__title {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 7.2rem;
+}
+
+.header__subtitle {
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 1.2rem;
+}
+
+.header__btn {
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 1.4rem;
+    background: var(--second-black-color);
+    margin-top: 4.6rem;
+    padding: 2.4rem 4.8rem;
+    border-radius: 5.5rem;
+    border: none;
+}
