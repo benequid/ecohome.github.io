@@ -40,7 +40,7 @@ body {
 }
 
 .container-small {
-    max-width: 112.2rem;
+    max-width: 112.4rem;
     margin: 0 auto;
 }
 
@@ -98,4 +98,125 @@ body {
     padding: 2.4rem 4.8rem;
     border-radius: 5.5rem;
     border: none;
+}
+
+.about {
+    background-color: var(--black-color);
+}
+
+.about__logo {
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 600;
+    opacity: 10%;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+.about__slider {
+    display: flex;
+    gap: 16rem;
+}
+
+.about__flex-container__left {
+    margin-top: 34rem;
+}
+
+.slider__btns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+}
+
+.slider__btn {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: var(--white-color);
+    font-size: 2.4rem;
+}
+
+.slider__btn_active {
+    font-weight: 600;
+    font-size: 3.2rem;
+}
+
+.slider__btn_smaller {
+    font-size: 1.8rem;
+}
+
+.about__flex-container__right {
+    margin-top: 17rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__flex-container__right img {
+    width: 37.6rem;
+    height: 21.2rem;
+}
+
+.slider__title {
+    font-family: 'Oranienbaum', sans-serif;
+    font-size: 5.6rem;
+    color: var(--white-color);
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+.about__info-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-top: 4.4rem;
+}
+
+.about__info {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    color: var(--white-color);
+}
+
+.estimate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18.7rem;
+}
+
+.estimate__titles {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.estimate__title {
+    font-family: 'Golos Text', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--black-color);
+}
+
+.estimate__subtitle {
+    font-family: 'Golos Text', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 113%;
+}
+
+.estimate__img {
+    width: 75.3rem;
+    height: 36.2rem;
 }
